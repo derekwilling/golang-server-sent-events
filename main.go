@@ -7,6 +7,7 @@ import (
 	"time"
 )
 
+// Broker contains all thinkgs for brokering.
 type Broker struct {
 	// Events are pushed to this channel by the main events-gathering routine.
 	Notifier chan []byte
